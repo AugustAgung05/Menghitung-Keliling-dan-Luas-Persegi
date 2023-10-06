@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="STYLE/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div>
+        <h1>Katik</h1>
+        <h2 class="katik">Kalkulator Matematik</h2>   
+        </div>
+        <article class="header">
+            <h2>Welcome to Katik</h2>
+            <div class="header-p">
+                <p>Halo Kawan! Selamat datang di Katik!</p>
+                <p>Sebuah website yang berfungsi untuk menghitung nilai luas dan keliling sebuah <b>persegi</b></p>
+            </div>
+        </article>
+        <nav>
+            <a class="btn" href="#keliling">Keliling Persegi</a>
+            <a class="btn" href="#luas">Luas Persegi</a> 
+        </nav>
+    </header>
+
+    <main>
+        <article id="keliling" class="content">
+            <h3>Keliling Persegi</h3>
+            <figure><img src="Resources/Gambar persegi.jpg" alt="Gambar Persegi">
+                <figcaption>Persegi</figcaption>
+            </figure>
+            <h4>Rumus Keliling Persegi yaitu :</h4>
+            <h4>K = S * 4</h4>
+            <p>Penjelasan :</p>
+            <p>K = Keliling</p>
+            <p>S = Sisi</p>
+            <section>
+                <h3>Masukan Input Keliling Persegi</h3>
+                    <div>
+                        <input type="number" id="hitung-keliling">
+                        <button class="btnht" onclick="hitungkeliling()" type="submit">Hitung</button>
+                    </div>
+                <h3>Jawaban</h3>
+                    <div id="hasil-keliling" class="content hasil"></div>
+            </section>
+        </article>
+        <article id="luas" class="content">
+            <h3>Luas Persegi</h3>
+            <figure><img src="Resources/Gambar persegi.jpg" alt="Gambar Persegi">
+                <figcaption>Persegi</figcaption>
+            </figure>
+            <h4>Rumus Luas Persegi yaitu :</h4>
+            <h4>L = S * S</h4>
+            <p>Penjelasan :</p>
+            <p>L = Luas</p>
+            <p>S = Sisi</p>
+            <section>
+                <h3>Hitung Luas Persegi</h3>
+                    <div>
+                        <input type="number" id="hitung-luas">
+                        <button class="btnht" onclick="hitungluas()" type="submit">Hitung</button>
+                    </div>
+                <h3>Jawaban</h3>
+                    <div id="hasil-luas"  class="content hasil"></div>
+            </section>
+        </article>
+    </main>
+    <script src="JS/script.js"></script>
+    <footer>
+        <small>&copy; Ananda Agung Styadi, 2023</small>
+        <h3> Mari Berkoneksi</h3>
+        <a class="sm" href="https://www.linkedin.com/in/ananda-agung-styadi-a62654258">Linkeidn</a>
+        <a class="sm" href="https://www.instagram.com/anandast.05/">Instagram</a>
+    </footer>
+</body>
+</html>
+        
+                
+ 
+
+            
+

@@ -1,0 +1,73 @@
+* {
+    font-family: Quicksand, sans-serif;
+    font-size: 26px;
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 64px ;
+}
+.katik{
+    opacity: 40%;
+    color: white;
+    font-size: 32px;
+}
+header {
+    text-align: center;
+}
+header > div { 
+    margin: -1%;
+    padding: 25px;
+    background-color: #34675c;
+}
+nav{
+    margin: 54px;
+}
+.btn {
+    border: 2px solid black;
+    padding: 24px;
+    border-width: 3px;
+    background-color: #34675c;
+}
+.btn:hover {
+    color: #34675c;
+    font-weight: bold;
+    background-color: white;
+}
+a {
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+.sm:hover {
+    color: black;
+    font-weight: bolder;
+}
+footer {
+    margin: -1%;
+    padding: 30px;
+    text-align: center;
+    background-color: #34675c;
+}
+.content {
+    background-color: #34675c;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.btnht{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 32px;
+    width: 13%;
+    height: 65px;
+}
+.btnht:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+input {
+    font-size: 32px;
+    width: 50%;
+    height: 60px;
+}
